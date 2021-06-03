@@ -1,0 +1,48 @@
+body{
+    /*width: 1000px;*/
+    font-size: 13px;
+    font-family: Tahoma;
+    margin:0px auto;
+}
+#menu_top{
+    background: aqua;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+#menu_top ul{
+    margin: 0px;
+    padding: 0px;
+}
+#menu_top ul li{
+    list-style: none;
+    float: left;
+}
+#menu_top ul li a{
+    text-decoration: none;
+    border-right: 1px solid crimson;
+    padding: 0px 20px 0px 20px;
+    display: block;
+    color: antiquewhite;
+    font-size: 16px;
+
+}
+#menu_top ul li a.class{
+    background: cadetblue;
+}
+
+#menu_top ul li a.class1{
+    background: red;
+}
+#menu_top ul li a.class2{
+    background: coral;
+}
+
+
+#menu_bot{
+    margin-top: 30px;
+    background: blueviolet;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
